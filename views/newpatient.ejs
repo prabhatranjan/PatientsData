@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Patient</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  	<p><a href="/">Home</a></p>
+    <h1><%= title %></h1>
+    <form id="formAddPatient" name="addpatient" method="post" action="/addpatient">
+      <input id="inputFirstName" type="text" placeholder="First Name" name="firstName" />
+      <input id="inputlastname" type="text" placeholder="Last Name" name="lastname" />
+      <input id="inputcontact" type="text" placeholder="Contact" name="contact" />
+      <input id="inputaddress" type="text" placeholder="Address" name="address" />
+      <button id="btnSubmit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
